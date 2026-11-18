@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Promoción 2026 – CCTL</title>
+    <meta
+      name="description"
+      content="Invitación digital oficial de la Promoción 2026 del Centro de Capacitación Técnica de Luque."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ambient-glow glow-one"></div>
+    <div class="ambient-glow glow-two"></div>
+    <div class="page-noise" aria-hidden="true"></div>
+
+    <audio id="backgroundMusic" loop preload="auto" aria-label="Música de fondo">
+      <source src="assets/audio/piano.mp3" type="audio/mpeg" />
+    </audio>
+
+    <header class="topbar">
+      <div class="brand-mark">CCTL</div>
+      <div class="music-control">
+        <button id="audioToggle" class="audio-toggle" type="button" aria-label="Reproducir música">
+          <span class="audio-icon">♫</span>
+          <span class="audio-text">Música</span>
+        </button>
+      </div>
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#presentacion">Presentación</a>
+        <a href="#invitacion">Invitación</a>
+        <a href="#fecha-hora">Fecha</a>
+        <a href="#invitados">Honor</a>
+        <a href="#programa">Programa</a>
+        <a href="#egresados">Egresados</a>
+        <a href="#agradecimientos">Agradecimientos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <div class="progress-shell" aria-label="Progreso de lectura">
+      <div class="progress-bar" id="readingProgress"></div>
+    </div>
+
+    <div class="floating-controls" aria-label="Navegación entre secciones">
+      <button class="nav-button prev-section" type="button">Anterior</button>
+      <button class="nav-button next-section" type="button">Siguiente</button>
+    </div>
+
+    <button class="back-to-top" id="backToTop" type="button" aria-label="Volver arriba">↑</button>
+
+    <main class="content-shell">
+      <section class="cover-section section reveal" id="inicio">
+        <div class="cover-card">
+          <div class="gold-frame gold-frame-top"></div>
+          <div class="cover-topline">MINISTERIO DE EDUCACIÓN Y CIENCIAS</div>
+          <div class="cover-school">CENTRO DE CAPACITACIÓN TÉCNICA DE LUQUE</div>
+
+          <div class="event-title-wrap">
+            <span class="event-tag">PROMOCIÓN 2026</span>
+          </div>
+
+          <div class="cover-quote">
+            “CENTENARIO DEL NATALICIO DE LUIS ALBERTO DEL PARANÁ. HOMENAJE AL PEDAGOGO NACIONAL RAMÓN INDALECIO CARDOZO EN CONMEMORACIÓN DEL SESQUICENTENARIO DE SU NACIMIENTO”
+          </div>
+
+          <div class="cover-subtitle">BACHILLERATO TÉCNICO INDUSTRIAL</div>
+          <div class="cover-subtitle small">ELECTRÓNICA - ELECTRICIDAD</div>
+
+          <button class="open-invitation" id="openInvitationBtn" type="button">« ABRIR INVITACIÓN »</button>
+          <div class="gold-frame gold-frame-bottom"></div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="presentacion">
+        <div class="section-heading centered">
+          <span class="section-kicker">Presentación</span>
+          <h2>PROMOCIÓN 2026</h2>
+        </div>
+        <article class="editorial-panel intro-panel">
+          <p>
+            La Promoción 2026 del Centro de Capacitación Técnica de Luque representa un momento de orgullo,
+            esfuerzo y dedicación. En cada paso, los egresados han demostrado preparación técnica, compromiso,
+            disciplina y la voluntad de crecer para aportar al desarrollo de sus comunidades y del país.
+          </p>
+          <p>
+            Con la riqueza de la formación profesional y el espíritu de la institución, esta generación celebra la
+            culminación de una etapa trascendental. La invitación oficial refleja un reconocimiento a la excelencia
+            académica, al trabajo colectivo y al valor de quienes hoy se preparan para enfrentar nuevos desafíos
+            con identidad, vocación y responsabilidad.
+          </p>
+          <p>
+            En el marco del Centenario del natalicio de Luis Alberto del Paraná y en homenaje al pedagogo nacional
+            Ramón Indalecio Cardozo, esta promoción honra la tradición educativa, la formación técnica y el futuro
+            que se construye con estudio, esfuerzo y compromiso.
+          </p>
+        </article>
+      </section>
+
+      <section class="section reveal" id="invitacion">
+        <div class="section-heading centered">
+          <span class="section-kicker">Invitación oficial</span>
+          <h2>INVITACIÓN</h2>
+        </div>
+        <div class="invitation-card">
+          <p>
+            «El Personal Directivo, Docente, Administrativo y Egresados de la Promoción 2026 del Centro de
+            Capacitación Técnica de Luque, tienen el Honor de invitar a Ud. (s) al Acto de Graduación a llevarse
+            a cabo el día miércoles 02 de diciembre a las 19:00 horas, en el local de la institución.
+          </p>
+
+          <div class="invitation-highlight">
+            <div class="highlight-item">
+              <span class="highlight-label">MIÉRCOLES 02 DE DICIEMBRE</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-label">19:00 HORAS</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-label">TENIDA: GALA</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="section reveal" id="invitados">
+        <div class="section-heading centered">
+          <h2>INVITADOS DE HONOR</h2>
+        </div>
+
+        <div class="honor-grid">
+          <article class="honor-card">
+            <p class="honor-rank">EXCMO. SEÑOR</p>
+            <h3>Luis Ramírez</h3>
+            <p class="honor-role">Ministro</p>
+            <p>Ministerio de Educación y Ciencias.</p>
+          </article>
+
+          <article class="honor-card">
+            <p class="honor-rank">SEÑORA</p>
+            <h3>Ana Mello Martínez</h3>
+            <p class="honor-role">Directora Gral.</p>
+            <p>Dirección Gral. del Tercer Ciclo de E.E.B. y Educación Media.</p>
+            <p>Ministerio de Educación y Ciencias.</p>
+          </article>
+
+          <article class="honor-card">
+            <p class="honor-rank">SEÑOR</p>
+            <h3>Francisco A. Canatta</h3>
+            <p class="honor-role">Director</p>
+            <p>Dirección Departamental de Educación – Departamento Central.</p>
+          </article>
+
+          <article class="honor-card">
+            <p class="honor-rank">SEÑORA</p>
+            <h3>Delcia Estigarribia</h3>
+            <p class="honor-role">Supervisora Administrativa</p>
+            <p>Supervisión Área Educativa 11-02.</p>
+          </article>
+
+          <article class="honor-card">
+            <p class="honor-rank">SEÑORA</p>
+            <h3>María Graciela Galeano</h3>
+            <p class="honor-role">Supervisora Pedagógica</p>
+            <p>Supervisión Área Educativa 11-68.</p>
+          </article>
+
+          <article class="honor-card">
+            <p class="honor-rank">COMUNIDAD</p>
+            <h3>Plantel Docente</h3>
+            <p class="honor-role">Técnico y administrativo</p>
+            <p>Formadores que acompañan a cada estudiante.</p>
+          </article>
+
+          <article class="honor-card">
+            <p class="honor-rank">FAMILIAS</p>
+            <h3>Padres</h3>
+            <p class="honor-role">Apoyo y ejemplo</p>
+            <p>Apreciamos el acompañamiento, esfuerzo y confianza en cada paso.</p>
+          </article>
+
+          <article class="honor-card">
+            <p class="honor-rank">PROMOCIÓN</p>
+            <h3>Alumnos</h3>
+            <p class="honor-role">2026</p>
+            <p>Jóvenes que culminan una etapa con dedicación, vocación y compromiso.</p>
+          </article>
+        </div>
+
+        <div class="honor-signoff">
+          <span>LUQUE, 2026</span>
+        </div>
+      </section>
+
+      <section class="section reveal" id="programa">
+        <div class="section-heading centered">
+          <span class="section-kicker">Programa de la ceremonia</span>
+          <h2>PROGRAMA DE LA CEREMONIA</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="timeline-number">1</span>
+            <p>Entonación del Himno Nacional Paraguayo.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-number">2</span>
+            <p>Palabras de Lida Margarita González de Díaz, Directora General.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-number">3</span>
+            <p>Entrega del Pabellón Patrio.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-number">4</span>
+            <p>Entrega de Títulos y Menciones a los Egresados.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-number">5</span>
+            <p>Palabras del Mejor Egresado de la Promoción.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-number">6</span>
+            <p>Momento Artístico.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal graduates-section" id="egresados">
+        <div class="section-heading centered">
+          <span class="section-kicker">Egresados</span>
+          <h2>EGRESADOS DE LA PROMOCIÓN 2026</h2>
+        </div>
+
+        <div class="graduates-block">
+          <article class="course-block">
+            <h3>3° ELECTRICIDAD T.M.</h3>
+            <p class="course-subtitle">NÓMINA DE EGRESADOS</p>
+            <ol>
+              <li>ACOSTA CALVETTE MILAGROS LUJAN</li>
+              <li>ALFONSO PAREDES MARIA ALEJANDRA</li>
+              <li>AVALOS CARDOZO ALEXANDER URIEL</li>
+              <li>BEJARANO CUEVAS OLAVO MARTIN</li>
+              <li>BENITEZ DUARTE EDUARDO DE JESUS</li>
+              <li>BENITEZ RODRIGUEZ JOSE MANUEL</li>
+              <li>BONETT BRASSEL CRISTHIAN JESUS</li>
+              <li>COLMAN GONZALEZ AILEM BEATRIZ</li>
+              <li>COLMAN JONES AINARA MAILEN</li>
+              <li>COLMAN VALDEZ VALENTINA MANUELA</li>
+              <li>ESPINOLA RIVEROS AMBAR SERENA</li>
+              <li>FLEITAS VELAZQUEZ ROBERTO SEBASTIAN</li>
+              <li>IRALA RECALDE FACUNDO ANTONIO</li>
+              <li>LEGUIZAMON GOMEZ AXEL FABIAN</li>
+              <li>MARTINEZ SOSA DAHIANE JAZMIN</li>
+              <li>MEZA CAÑETE CEILA YERUTI</li>
+              <li>NUÑEZ FERNANDEZ LUNA GABRIELA</li>
+              <li>NUÑEZ VERA NORELLE WENDY AYLIN</li>
+              <li>OVIEDO GARCIA FIORELLA MONSERRAT</li>
+              <li>PATIÑO ALARCON MARIA JOAQUINA</li>
+              <li>PENAYO RODRIGUEZ PERLA MONSERRAT</li>
+              <li>PERALTA HELMAN JOSE JOAQUIN</li>
+              <li>PRIETO FERNANDEZ BRYHAN MATHIAS</li>
+              <li>RAMIREZ SANCHEZ ELEYDA CAROLINA</li>
+              <li>ROA OCAMPOS ALAN RODRIGO</li>
+              <li>ROJAS INSFRAN ESTEBAN ALEJANDRO</li>
+              <li>TRIGO AGÜERO ENZO BENJAMIN</li>
+              <li>VEGA GARAY MARIA ALEJANDRA</li>
+              <li>VERA TOLEDO BARBARA LYSSET</li>
+              <li>VILLALBA MACHADO VALENTINA ARIADNE</li>
+            </ol>
+          </article>
+
+          <article class="course-block">
+            <h3>3° ELECTRICIDAD T.T.</h3>
+            <p class="course-subtitle">NÓMINA DE EGRESADOS</p>
+            <ol>
+              <li>ACOSTA GONZALEZ BIANCA JAZMIN</li>
+              <li>AGUILERA CABAÑAS KEVIN DANIEL</li>
+              <li>ALFONSO QUINTANA FATIMA MARIBEL</li>
+              <li>AMARILLA MEQUER MATIAS JOAQUIN</li>
+              <li>BERNAL MARTINEZ JOSE FABRIZIO</li>
+              <li>CACERES JUAN RAMON</li>
+              <li>CANO CHAPARRO RODNEY FRANCISCO</li>
+              <li>CESPEDES ALVARENGA MILAGROS ABIGAIL</li>
+              <li>ESPINOLA GAONA JOSE AUGUSTO</li>
+              <li>ESPINOLA MEZA FERNANDO ARIEL</li>
+              <li>FERREIRA SANABRIA DEYLIN ROSARIO</li>
+              <li>FOTH CUEVAS GIULIANNO DAVID</li>
+              <li>GALARZA RUIZ JOSE EMANUEL</li>
+              <li>GIMENEZ AQUINO SOFIA LUJAN</li>
+              <li>GONZALEZ IBAÑEZ FABIAN EZEQUIEL</li>
+              <li>IRALA CABALLERO MARCOS DARIO</li>
+              <li>LATOURRETTE INSFRAN NAOMI CONCEPCION</li>
+              <li>LOPEZ ROLON EDUARDO GABRIEL</li>
+              <li>LOPEZ UVALDEA LUANA YERUTI</li>
+              <li>MENDIETA LOPEZ JONATHAN TOBIAS</li>
+              <li>PEREIRA CUEVAS IGNACIO ANDRES</li>
+              <li>PEREIRA VALINOTTI LUANA LUJAN</li>
+              <li>ROMERO ORTIZ GABRIELA ABIGAHIL</li>
+              <li>SALINAS STRUWAY ANIBAL ARTURO</li>
+              <li>SANABRIA AGUILERA XIOMARA MICAELA BELEN</li>
+              <li>SOSA CORONEL PAULA ABIGAIL</li>
+              <li>SOSA GIMENEZ TOBIAS JOAQUIN</li>
+              <li>VELAZQUEZ VILLALBA DANIELA LUJAN</li>
+            </ol>
+          </article>
+
+          <article class="course-block">
+            <h3>3° ELECTRÓNICA T.M.</h3>
+            <p class="course-subtitle">NÓMINA DE EGRESADOS</p>
+            <ol>
+              <li>ALVAREZ COCCO DANIEL FERNANDO</li>
+              <li>BENITEZ ORUE THIAGO ALEXANDRO</li>
+              <li>CABRERA RAMIREZ BETHANIA AILEN</li>
+              <li>CACERES ORTEGA ALEJANDRO GABRIEL</li>
+              <li>CACERES QUINTANA JESSICA CELESTE</li>
+              <li>ESCOBAR SOSA ALVARO TOBIAS</li>
+              <li>FARIÑA MAZO HUGO ISAIAS</li>
+              <li>FERREIRA BENITEZ GUSTAVO NICOLAS</li>
+              <li>GALLAR FONSECA GONZALO JULIAN</li>
+              <li>GARIAZU ZARATE LUIS ENRIQUE</li>
+              <li>GIMENEZ RAMIREZ GIULIANA SOFIA</li>
+              <li>GONZALEZ RAMIREZ DHARMA ARAMI</li>
+              <li>GREGOR AVALOS AUGUSTO</li>
+              <li>GUERRERO SAMANIEGO JOAQUIN ELIAS</li>
+              <li>HERRERA BOGADO JONATHAN JOSE</li>
+              <li>LINARES RIVEROS GINO ORLANDO</li>
+              <li>MANCUELLO AYALA MISAEL ALEXANDER</li>
+              <li>MEDINA BENITEZ BRUNO NICOLAS</li>
+              <li>MIERES NUÑEZ MARIA SOFIA</li>
+              <li>MOREL BARRIOS ALAN MATHIAS</li>
+              <li>OJEDA BARRETO FERNANDA LUJAN AYELEM</li>
+              <li>PERALTA RAMIREZ ELENA MONSERRATH</li>
+              <li>PRIETO BARRIOS GUILLERMO DE JESUS</li>
+              <li>RIVEROS BENITEZ LISANDRA MARIAM</li>
+              <li>RODAS BARRETO FIORELLA ABIGAIL</li>
+              <li>SERVIN CANDIA ANGELICA NOEMI</li>
+              <li>SOTO MARTINEZ EDUARDO LIOSNEL</li>
+              <li>VILLASANTI CARDOZO HUGO PEDRO</li>
+              <li>WOOD RAMIREZ CLARISSA MONSERRATH</li>
+            </ol>
+          </article>
+
+          <article class="course-block">
+            <h3>3° ELECTRÓNICA T.T.</h3>
+            <p class="course-subtitle">NÓMINA DE EGRESADOS</p>
+            <ol>
+              <li>AGUILAR NUÑEZ THIARA ARAMI</li>
+              <li>ANDO RAMIREZ WYLLIAMS HIROYA</li>
+              <li>CABAÑAS CARDOZO EVELYN FIORELLA</li>
+              <li>CARDOZO CACERES RENATO EZEQUIEL</li>
+              <li>CARDOZO TALAVERA RICARDO ALBERTO</li>
+              <li>DENIS BARRIOS TAMARA LUJAN</li>
+              <li>DIVITTO MERELES ISABELLA NICOLE</li>
+              <li>ESQUIVEL ALVARENGA ALVARO MATHIAS</li>
+              <li>FERREIRA CHAMORRO MATEO NICOLAS</li>
+              <li>FLEYTAS VILLAGRA TOBIAS DANIEL</li>
+              <li>GAVILAN PINTOS RAMSES BENJAMIN</li>
+              <li>GIMENEZ FERREIRA ABRAHAM DE JESUS</li>
+              <li>GIMENEZ MONTIEL RAMSES SALOMON</li>
+              <li>GONZALEZ DI LASCIO CYNTHIA MARIA DEL MAR</li>
+              <li>GUERRERO VERA MATIAS EDUARDO</li>
+              <li>INSFRAN VELAZQUEZ, JORGE ENMANUEL</li>
+              <li>IRALA SILVERA SANTIAGO MANUEL</li>
+              <li>MARTINEZ BRITEZ KEVIN WILLIAM</li>
+              <li>OCAMPOS CACERES TOBIAS EMMANUEL</li>
+              <li>ORREGO SIMBRON MATEO SEBASTIAN</li>
+              <li>ORTIZ CANTERO ANGEL DANIEL</li>
+              <li>ORUE MEDINA NAYELI ABIGAIL</li>
+              <li>RECALDE GONZALEZ IVAN EZEQUIEL</li>
+              <li>RUIZ OVIEDO, KEVIN RAFAEL</li>
+              <li>SAMANIEGO VERA CHRISTIAN OCTAVIO</li>
+              <li>SILVA GIMENEZ ANA PAULA</li>
+              <li>SOSA ARANDA BRENDA ANTONELLA</li>
+              <li>TOLEDO ACOSTA ALVARO MANUEL</li>
+              <li>VILLALBA CABRERA AQUILES RAUL</li>
+              <li>VILLALBA GONZALEZ PABLO JUNIOR</li>
+            </ol>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="agradecimientos">
+        <div class="section-heading centered">
+          <span class="section-kicker">Gratitud</span>
+          <h2>AGRADECIMIENTOS</h2>
+        </div>
+
+        <div class="thanks-grid">
+          <article class="thank-item">
+            <h3>A DIOS</h3>
+            <p>Que nos sujeta con la mano derecha, nos guía y nos conduce para la gloria.-</p>
+          </article>
+
+          <article class="thank-item">
+            <h3>A NUESTROS PADRES</h3>
+            <p>Que fueron guías de nuestros pasos,</p>
+            <p>Que con Amor nos orientaron,</p>
+            <p>Que no escatimaron esfuerzos para que alcancemos esta etapa.-</p>
+          </article>
+
+          <article class="thank-item">
+            <h3>A NUESTROS PROFESORES</h3>
+            <p>Por las orientaciones recibidas,</p>
+            <p>Por la paciencia y la tolerancia.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal footer-section" id="cierre">
+        <div class="section-heading centered">
+          <span class="section-kicker">Cierre</span>
+          <h2>CELEBRACIÓN</h2>
+        </div>
+
+        <div class="closing-panel">
+          <p class="closing-institution">CENTRO DE CAPACITACIÓN TÉCNICA DE LUQUE</p>
+          <p class="closing-year">PROMOCIÓN 2026</p>
+          <div class="closing-signoff">
+            <span>PLANTEL DOCENTE, TÉCNICO Y ADMINISTRATIVO</span>
+            <span>PADRES DE FAMILIAS</span>
+            <span>LUQUE, 2026</span>
+          </div>
+          <p class="closing-sentence">Con orgullo, emoción y gratitud celebramos un logro que marca el comienzo de nuevos caminos.</p>
+        </div>
+      </section>
+
+      <section class="section reveal" id="contacto">
+        <div class="section-heading centered">
+          <span class="section-kicker">Institución</span>
+          <h2>CENTRO DE CAPACITACIÓN TÉCNICA DE LUQUE</h2>
+        </div>
+
+        <div class="contact-panel">
+          <div class="contact-row">
+            <span class="contact-icon" aria-hidden="true">☎</span>
+            <div>
+              <p class="contact-label">CONTACTAR CON NOSOTROS</p>
+              <p><strong>TELÉFONO:</strong> <a href="tel:+595984222611">0984 222611</a></p>
+            </div>
+          </div>
+
+          <div class="contact-row">
+            <span class="contact-icon" aria-hidden="true">◌</span>
+            <div>
+              <p class="contact-label">WEB SITE:</p>
+              <p><a href="http://www.cctl.edu.py" target="_blank" rel="noreferrer">www.cctl.edu.py</a></p>
+            </div>
+          </div>
+
+          <div class="contact-row">
+            <span class="contact-icon" aria-hidden="true">⌖</span>
+            <div>
+              <p class="contact-label">DIRECCIÓN:</p>
+              <p>Mcal. Sucre y La Paz – 4to. Barrio ciudad de Luque.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
